@@ -1,5 +1,9 @@
 # Mon CV en Typst
 
+[Exemple of result in release V1](https://github.com/tibs245/template-typst-CV/releases/download/v1/CV-Thibault.Barske-blue.pdf)
+
+> If you click on release V1 you can see differents colors generations examples
+
 ## Pourquoi faire mon CV en Typst ?
 
 1. Mon dossier de compétences sous word à mal vieilli
