@@ -1,0 +1,27 @@
+name: compile-pdf
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: docker://ghcr.io/typst/typst:latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Compile PDF
+      run: |
+        cp author_example.yml author.yml
+        typst compile main.typ CV.pdf
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3.1.2
+      with:
+        name: CV
+        path: CV.pdf
+        retention-days: 90 days
