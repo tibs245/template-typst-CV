@@ -1,0 +1,11 @@
+compile-pdf:
+  stage: build
+  image: ghcr.io/typst/typst:latest
+  script:
+    - cp $author author.yml
+    - typst compile main.typ CV.pdf
+  artifacts:
+    expose_as: 'CV'
+    paths:
+      - CV.pdf
+    expire_in: 1 month
