@@ -317,7 +317,7 @@ skillsConcerned: (
 
     Cela se traduit aussi avec beaucoup d'intervention qui se ressemble. Donc dans l'optique de réduire encore les coûts des parcs informatiques sous leurs responsabilités. Il ont fait appel à moi afin d'automatisé les tâches répétitive.
     
-    De plus cela leur à permis de répondre à quelques besoins de développement de leur client 
+    De plus cela leur à permis de répondre à quelques besoins de développement de leurs clients 
   ],
   missions: [
   - Optimisation des processus de maintenance client 
