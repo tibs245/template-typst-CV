@@ -178,6 +178,42 @@ skillsConcerned: (
 )
 )
 
+#mission(
+  [Sweeflow], 
+  role: "Co-Fondateur / Principal développeur", 
+  beginingDate: "Janvier 2020", 
+  endDate: "juin 2021",
+  duration: "6 mois",
+  contexte: [
+    J'ai souhaité lancer un produit avec un associé. 
+    Ce produit consistait à améliorer au mieux les flux d'entreprise.
+    Et donc facilité les gestions de tâches au quotidien et de diminuer les étapes manuelle.
+
+    Pour cela j'ai développé un POC en VueJS2 et Nuxt avec un back en NodeJS/Express lié à un Firestore.
+
+    Pour des raisons d'une stratégie commercial pas assez élaboré dans les temps. J'ai souhaitez quitter le navire avant d'avoir trop de risque de m'endetter.
+  ],
+  missions: [
+    - Création d'un projet VueJS (2)
+    - Utilisation de Google Cloud et de son service Cloud Run
+    - API en microservice NodeJS
+    - Déploiement automatique et suivi de qualité de code via Gitlab
+    - Formation / Suivi projet du développement (1 développeur junior)
+    - Utilisation de Firebase
+],
+skillsConcerned: (
+  skillsValues.Javascript,
+  skillsValues.Typescript,
+  skillsValues.Gitlabcicd,
+  skillsValues.Docker,
+  skillsValues.VueJS2,
+  skillsValues.Nuxt,
+  skillsValues.NodeJS,
+  skillsValues.Firestore,
+  skillsValues.at("Google Cloud"),
+)
+)
+
 
 #mission(
   [SII  ROUEN <SII>], 
