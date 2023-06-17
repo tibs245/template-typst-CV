@@ -493,9 +493,9 @@ skillsConcerned: (
 #mission(
   [Assystem <assystem>], 
   role: "Développeur Front-end", 
-  beginingDate: "Février 2026", 
+  beginingDate: "Février 2016", 
   endDate: "Mai 2016",
-  duration: "4 an",
+  duration: "4 mois",
   contexte: [
     #link(<bearstudio2015>, [Au sein du BearStudio]), j'ai fait une prestation de 4 mois en régis chez Assystem de 4 jours/semaine.
 
