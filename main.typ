@@ -43,6 +43,7 @@
     Tauri: (name: "Tauri", icon: image("icons/tauri.svg", height: 1.1em), iconInset: 0.1em),
     Storybook: (name: "Storybook", icon: image("icons/storybook.svg", height: 1.1em), iconInset: 0.1em),
     Ansible: (name: "Ansible", icon: image("icons/ansible.svg", height: 1.1em), iconInset: 0.1em),
+    ClaudeCode: (name: "Claude Code", icon: image("icons/claude.svg", height: 1.4em)),
   ),
   "Organisation": (
     Scrum: (name: "Scrum", icon: image("icons/scrum.svg", height: 1.4em)),
@@ -92,7 +93,91 @@
 = EXPÉRIENCES PROFESSIONNELLES
 
 #mission(
-  [BearStudio <bearstudio>], 
+  [OVH <ovh>],
+  role: "Développeur Front-end Senior",
+  beginingDate: "Août 2024",
+  endDate: "Présent",
+  duration: "~2 ans",
+  contexte: [
+    J'ai rejoint OVH pour développer et faire évoluer le Manager, l'interface d'administration des services OVHcloud, au sein d'une équipe Scrum riche et complète.
+
+    Au-delà du développement, j'ai participé à la transformation de l'organisation d'une équipe 100% humaine vers une équipe assistée par IA, et j'évolue dans un contexte international avec des échanges réguliers en anglais.
+  ],
+  missions: [
+    - Développement de micro-applications (uApp) React et Angular au sein d'un monorepo
+      - Projet open-source : #link("https://github.com/ovh/manager")
+    - Migration d'applications AngularJS et React vers React _(Manager Beta)_ via un workflow automatisé
+      - #link("https://github.com/tibs245/reimagined-succotash")
+    - Travail au sein d'une équipe Scrum riche et complète
+    - Outillage de l'équipe pour le développement assisté par IA
+      - Mise en place de modules custom BMAD pour faciliter la collaboration en équipe
+      - Expérience riche avec Claude Code pour du développement React au sein de l'équipe Backup : #link("https://github.com/tibs245/claude-code-rex")
+    - Équipe internationale avec des meetings réguliers en anglais
+  ],
+  skillsConcerned: (
+    skillsValues.Javascript,
+    skillsValues.Typescript,
+    skillsValues.ReactJS,
+    skillsValues.Angular,
+    skillsValues.Scrum,
+    skillsValues.ClaudeCode,
+  )
+)
+
+#mission(
+  [Adaptive <adaptive>],
+  role: "Développeur Front-end",
+  beginingDate: "Février 2024",
+  endDate: "Mai 2024",
+  duration: "4 mois",
+  contexte: [
+    J'ai rejoint Adaptive pour renforcer leur équipe sur le développement de nouvelles fonctionnalités en VueJS.
+
+    Cette mission s'est déroulée au sein d'une équipe 100% en télétravail, ce qui m'a permis de m'investir dans une organisation entièrement à distance.
+  ],
+  missions: [
+    - Développement de fonctionnalités en VueJS
+    - Travail d'équipe au sein d'une équipe 100% télétravail
+  ],
+  skillsConcerned: (
+    skillsValues.Javascript,
+    skillsValues.Typescript,
+    skillsValues.VueJS3,
+  )
+)
+
+#mission(
+  [Lùkla _(Digiwin)_ <lukla>],
+  role: "Lead Développeur FullStack",
+  beginingDate: "Juin 2023",
+  endDate: "Décembre 2023",
+  duration: "6 mois",
+  contexte: [
+    J'ai rejoint Lùkla (Digiwin) en tant que Lead Développeur sur un projet FullStack, avec pour mission de maintenir et faire évoluer l'existant tout en concevant de nouvelles briques.
+  ],
+  missions: [
+    - Front-end en VueJS / Nuxt 2 et Vuetify
+      - Maintien et amélioration de l'existant
+    - Backend en PHP Symfony 5 / MySQL et Elasticsearch
+    - Conception et développement d'un second front-end B2B en Nuxt 3 et Vuetify
+    - Mise en place d'un SEO optimisé
+    - Optimisation des performances via de bonnes pratiques et mise en place de cache _(notamment ISR)_
+  ],
+  skillsConcerned: (
+    skillsValues.Javascript,
+    skillsValues.Typescript,
+    skillsValues.VueJS2,
+    skillsValues.VueJS3,
+    skillsValues.Nuxt,
+    skillsValues.PHP,
+    skillsValues.Symfony,
+    skillsValues.MySQL,
+    skillsValues.ElasticSearch,
+  )
+)
+
+#mission(
+  [BearStudio <bearstudio>],
   role: "Développeur Senior", 
   beginingDate: "juin 2021",
   endDate: "décembre 2022",
