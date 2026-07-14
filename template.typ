@@ -96,11 +96,7 @@ set page(
     smallcaps[#author.name \ #author.jobTitle],
     {
       set align(top + end)
-      smallcaps[Page #counter(page).display(
-      "1 sur 1",
-      both: true,
-    )
-  ]
+      context smallcaps[Page #counter(page).get().first() sur #counter(page).final().first()]
 }
 )
 },
@@ -114,12 +110,10 @@ set page(
   body
 }
 
-#let labelPage(label) = locate(
-    (loc) => [
-      #let labelLocation = query(label, loc)
-      #labelLocation.first().location().page()
-    ]
-  )
+#let labelPage(label) = context {
+  let labelLocation = query(label)
+  labelLocation.first().location().page()
+}
 
   
 #let linkLabel(content, label) = link(label, [#content #text(gray.darken(30%), smallcaps([\[Détails page #labelPage(label)\]]))])

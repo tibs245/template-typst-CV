@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: docker://ghcr.io/typst/typst:latest
+    container: docker://ghcr.io/typst/typst:v0.13.1
     
     steps:
     - name: Checkout repository
